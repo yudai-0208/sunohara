@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="”og:url”" content="”https://tomoyasu-10.github.io/omedetou-page/”" />
+    <head prefix="og: https://ogp.me/ns#">      
+    <meta property="”og:site_name”" content="”誕生日のお祝い”" />
+    <meta property="”og:type”" content="”websaite”" />
+    <meta property="”og:title”" content="”渡邉友靖”" />
+    <meta property="”og:description”" content="”地元の仲間の誕生日をお祝いする。”" />
+    <meta property="”og:image”" content="”https://tomoyasu-10.github.io/omedetou-page/hb.png”" />
+    <title>誕生日おめでとう！</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=M+PLUS+Rounded+1c:wght@500&family=Noto+Sans+JP:wght@300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: rgb(127, 255, 255);
+        font-family: "M PLUS Rounded 1c", sans-serif;
+      }
+      .message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #4fdaf3;
+        font-size: 24px;
+        padding-left: 20px;
+      }
+      .maru {
+        width: 60vw;
+        height: 60vw;
+        border-radius: 60vw;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url(happy.jpg);
+        background-repeat: no-repeat;
+        background-size: 87%;
+        background-position: center;
+      }
+      .name {
+        text-align: center;
+        color: #b380ff;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 26px;
+      }
+    </style>
+  </head>
+  <body class="c-firework">
+    <div class="bg"></div>
+    <div class="maru"></div>
+    <div class="message">37歳!</div>
+    <div class="name">長谷川&横堀</div>
+    <script
+      charset="utf-8"
+      src="https://static.line-scdn.net/liff/edge/2/sdk.js"
+    ></script>
+    <script>
+      import liff from "@line/liff";
+      liff.init({
+        liffId: "1657365881-Wvk8DjB9", // Use own liffId
+      });
+    </script>
+  </body>
+</html>
